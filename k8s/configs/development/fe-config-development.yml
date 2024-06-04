@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k8s-speedrun-fe-config-dev
+data:
+  .env: |
+    VITE_TEST="123"
