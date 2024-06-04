@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-speedrun-fe-deployment
+  namespace: development
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k8s-speedrun-fe
+  template:
+    metadata:
+      labels:
+        app: k8s-speedrun-fe
+    spec:
+      containers:
+        - name: k8s-speedrun-fe-container
+          image: k8s-speedrun-fe:latest
+          ports:
+            - containerPort: 80
