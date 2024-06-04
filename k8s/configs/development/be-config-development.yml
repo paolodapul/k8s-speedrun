@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k8s-speedrun-be-config-dev
+data:
+  .env: |
+    NODE_ENV=dev
