@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: k8s-speedrun-fe-container
-          image: k8s-speedrun-fe:latest
+          image: paolodapul/k8s-speedrun-fe:latest
           ports:
             - containerPort: 80
