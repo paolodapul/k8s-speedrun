@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fastify start -w index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paolo Dapul",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "fastify-cli": "^6.1.1"
+  }
+}
